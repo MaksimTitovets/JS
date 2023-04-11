@@ -17,3 +17,9 @@ Examples
 const stringToNumber = function(str){
   return Number(str);
 }
+
+//Best practice:
+
+var stringToNumberBP = function(str){
+  return parseInt(str);
+}

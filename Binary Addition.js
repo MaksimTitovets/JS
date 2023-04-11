@@ -12,3 +12,9 @@ Examples:(Input1, Input2 --> Output (explanation)))
 function addBinary(a,b) {
   return (a + b).toString(2);
 }
+
+//Best practice:
+
+function addBinaryBP(a,b){
+  return (a+b).toString(2)
+}

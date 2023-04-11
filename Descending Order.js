@@ -15,3 +15,9 @@ function descendingOrder(n){
                          .join("")
                );
 }
+
+//Best practice:
+
+function descendingOrderBP(n){
+  return parseInt(String(n).split('').sort().reverse().join(''))
+}

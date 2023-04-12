@@ -14,3 +14,7 @@ Note: for this kata y isn't considered a vowel.
 function disemvowel(str) {
   return str.match(/[^aeiou]/gi).join("");
 }
+
+function disemvowelBestPractice(str) {
+  return str.replace(/[aeiou]/gi, '');
+}

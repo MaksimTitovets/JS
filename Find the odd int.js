@@ -18,3 +18,5 @@ function findOdd(A) {
     return A[i];
   }
 }
+
+const findOddBestPractice = (xs) => xs.reduce((a, b) => a ^ b);

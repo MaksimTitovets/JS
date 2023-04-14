@@ -13,3 +13,7 @@ Examples (Input --> Output)
 function validatePIN (pin) {
   return /^(\d{4}|\d{6})$/.test(pin)
 }
+
+function validatePINBestPractice(pin) {
+  return /^(\d{4}|\d{6})$/.test(pin)
+}

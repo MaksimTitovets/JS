@@ -17,3 +17,7 @@ function solution(str){
    }
   return arr2;
 }
+
+function solutionBestPractice(s){
+   return (s+"_").match(/.{2}/g)||[]
+}

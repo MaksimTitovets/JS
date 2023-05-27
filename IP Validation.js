@@ -16,3 +16,10 @@ Leading zeros (e.g. 01.02.03.04) are considered invalid
 Inputs are guaranteed to be a single string
 */
 
+function isValidIP(str) { 
+  if ((str.split('.').filter(x => /[a-z]|\s/gi.test(x))[0]) ||
+      (str.split('.').filter(x => x == '')[0] == '') ||
+      (str.split('.').filter(x => x.length > 1 && (x[0] == '0'))[0]))
+    return false;  
+  return str.split('.').filter(x => (Number(x) < 256 && Number(x) >= 0)).length == 4 ? true : false;
+}

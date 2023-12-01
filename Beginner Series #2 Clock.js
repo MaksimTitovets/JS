@@ -9,6 +9,7 @@ m = 1
 s = 1
 
 result = 61000
+
 */
 
 function past(h, m, s){

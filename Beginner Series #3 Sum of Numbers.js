@@ -11,7 +11,9 @@ Examples (a, b) --> output (explanation)
 (1, 1) --> 1 (1 since both are same)
 (-1, 0) --> -1 (-1 + 0 = -1)
 (-1, 2) --> 2 (-1 + 0 + 1 + 2 = 2)
+
 Your function should only return a number, not the explanation about how you get that number.
+
 */
 
 function getSum(a, b) {

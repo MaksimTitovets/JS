@@ -7,6 +7,7 @@ but for size 3 x 1 you must do two breaks.
 
 If input data is invalid you should return 0 (as in no breaks are needed if we do not have any chocolate to split).
 Input will always be a non-negative integer.
+
 */
 
 function breakChocolate(n,m) {

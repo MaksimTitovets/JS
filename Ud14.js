@@ -1,3 +1,4 @@
+/*
 const students = ['Peter', 'Andrew', 'Ann', 'Mark', 'Josh', 'Sandra', 'Cris', 'Bernard', 'Takesi', 'Sam'];
 
 function sortStudentsByGroups(arr) {
@@ -19,3 +20,19 @@ function sortStudentsByGroups(arr) {
 }
 
 sortStudentsByGroups(students);
+
+*/
+
+const students = ['Peter', 'Andrew', 'Ann', 'Mark', 'Josh', 'Sandra', 'Cris', 'Bernard', 'Takesi', 'Sam'];
+
+function sortStudentsByGroups(arr) {
+    arr.sort();
+    let a1 = [], a2 = [], a3 = [], a4 = arr.slice(9);
+    for (let i = 0; i < 3; i++) {
+        a1.push(arr[i]);
+        a2.push(arr[i+3]);
+        a3.push(arr[i+6]);
+    }
+    if (!a4[0]) return [a1, a2, a3, 'Оставшиеся студенты: -']
+    else return [a1, a2, a3, `Оставшиеся студенты: ${a4.join(', ')}`]
+}

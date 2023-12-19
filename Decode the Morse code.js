@@ -1,4 +1,5 @@
 /*
+
 In this kata you have to write a simple Morse code decoder. 
 While the Morse code is now mostly superseded by voice and digital data communication channels,
 it still has its use in some applications around the world.
@@ -19,7 +20,6 @@ These special codes are treated as single special characters, and usually are tr
 Your task is to implement a function that would take the morse code as input and return a decoded human-readable string.
 
 For example:
-
 decodeMorse('.... . -.--   .--- ..- -.. .')
 //should return "HEY JUDE"
 NOTE: For coding purposes you have to use ASCII characters . and -, not Unicode characters.
@@ -44,6 +44,7 @@ NASM: a table of pointers to the morsecodes, and a corresponding list of ascii s
 All the test strings would contain valid Morse code, so you may skip checking for errors and exceptions.
 In C#, tests will fail if the solution code throws an exception, please keep that in mind. 
 This is mostly because otherwise the engine would simply ignore the tests, resulting in a "valid" solution.
+
 */
 
 decodeMorse = function(morseCode){
